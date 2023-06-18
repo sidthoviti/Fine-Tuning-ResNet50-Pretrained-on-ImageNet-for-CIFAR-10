@@ -1,5 +1,5 @@
 # Fine-Tuning-ResNet50-Pretrained-on-ImageNet-for-CIFAR-10
-We explored the process of fine-tuning a pretrained ResNet50 model on the CIFAR-10 dataset.
+We explored the process of fine-tuning a pretrained ResNet50 model on the CIFAR-10 dataset. The fine-tuned ResNet-50 model achieved an accuracy of 92.34% on CIFAR-10 test set.
 
 Read the blog post that explains this project: [Fine-Tuning ResNet50 pretrained on ImageNet for CIFAR-10](https://sidthoviti.com/fine-tuning-resnet50-pretrained-on-imagenet-for-cifar-10/)
 
@@ -18,3 +18,5 @@ Read the blog post that explains this project: [Fine-Tuning ResNet50 pretrained 
 * Testing Accuracy: The test accuracy also shows improvement throughout the epochs, starting from 69.60% and reaching 87.68% in the final epoch. This suggests that the model is generalizing well and performing better on unseen data.
 
 * Test Loss: The test loss initially decreases and then fluctuates slightly, but overall, it remains relatively stable. It starts at 0.8660 and ends at 0.3625.
+
+Note: The above results were obtained by using a batch size of 32. When the batch size of increased to 64, 92.34% accuracy was achieved.
