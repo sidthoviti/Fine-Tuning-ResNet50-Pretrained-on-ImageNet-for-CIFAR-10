@@ -9,8 +9,12 @@ Read the blog post that explains this project: [Fine-Tuning ResNet50 pretrained 
 * Epochs 60
 
 ## Results
-![Loss Plot](https://github.com/sidthoviti/Fine-Tuning-ResNet50-Pretrained-on-ImageNet-for-CIFAR-10/assets/96778922/f161b981-b4bc-4083-8aeb-e0efe3c8c1ed)
-![Accuracy Plot](https://github.com/sidthoviti/Fine-Tuning-ResNet50-Pretrained-on-ImageNet-for-CIFAR-10/assets/96778922/af07fc7b-b17b-49aa-8956-013bcd7fcad5)
+| Loss Plot              | Accuracy Plot          |
+| ---------------------- | ---------------------- |
+| ![Loss Plot](https://github.com/sidthoviti/Fine-Tuning-ResNet50-Pretrained-on-ImageNet-for-CIFAR-10/assets/96778922/f161b981-b4bc-4083-8aeb-e0efe3c8c1ed) | ![Accuracy Plot](https://github.com/sidthoviti/Fine-Tuning-ResNet50-Pretrained-on-ImageNet-for-CIFAR-10/assets/96778922/af07fc7b-b17b-49aa-8956-013bcd7fcad5) |
+
+
+
 * Training Accuracy: The training accuracy steadily increases with each epoch, starting from 53.80% in the first epoch and reaching 90.64% in the final epoch. This indicates that the model is learning and improving its performance on the training data.
 
 * Training Loss: The training loss gradually decreases over the epochs, starting from 1.3067 and decreasing to 0.2779. Lower training loss values indicate that the model is fitting the training data better.
