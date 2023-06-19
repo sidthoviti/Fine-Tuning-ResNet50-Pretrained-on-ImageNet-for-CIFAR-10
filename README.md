@@ -23,4 +23,4 @@ Read the blog post that explains this project: [Fine-Tuning ResNet50 pretrained 
 
 * Test Loss: The test loss initially decreases and then fluctuates slightly, but overall, it remains relatively stable. It starts at 0.8660 and ends at 0.3625.
 
-Note: The above results were obtained by using a batch size of 32. When the batch size of increased to 64, 92.34% accuracy was achieved.
+Note: The above results were obtained by using a batch size of 32. When the batch size of increased to 64, 92.63% accuracy was achieved.
